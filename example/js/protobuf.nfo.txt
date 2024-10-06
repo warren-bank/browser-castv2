@@ -1,0 +1,5 @@
+https://github.com/protobufjs/protobuf.js#browsers
+https://cdn.jsdelivr.net/npm/protobufjs@6.8.8/dist/protobuf.min.js
+https://cdn.jsdelivr.net/npm/protobufjs@6.8.8/dist/light/protobuf.min.js
+https://cdn.jsdelivr.net/npm/protobufjs@6.8.8/dist/minimal/protobuf.min.js
+  window.protobuf
