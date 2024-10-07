@@ -10,7 +10,6 @@ var doLaunch = function() {
 
   var tcp_host = document.querySelector('input#tcp-host').value
   var tcp_port = document.querySelector('input#tcp-port').value
-  var tcp_path = document.querySelector('input#tcp-path').value
 
   if (!cc_ip) return
 
@@ -25,7 +24,8 @@ var doLaunch = function() {
   var tcp_options = {
     hostname: tcp_host,
     port:     tcp_port,
-    path:     tcp_path
+    remote:   {address: cc_ip, family: 'IPv4', port: cc_port},
+    api:      false
   }
 
   window.castv2.setProxy(tcp_options)

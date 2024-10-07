@@ -22,12 +22,11 @@ module.exports = {
       path.resolve('../node_modules')
     ],
     fallback: {
-      "assert": require.resolve("assert-browserify"),
       "buffer": require.resolve("buffer/"),
       "events": require.resolve("events/"),
       "fs":     false,
-      "http":   require.resolve("http-browserify"),
-      "net":    require.resolve("net-browserify/browser.js"),
+      "http":   false,
+      "net":    require.resolve("@warren-bank/net-browserify"),
       "stream": require.resolve("stream-browserify"),
       "timers": require.resolve("timers-browserify"),
       "tls":    require.resolve("tls-browserify"),
