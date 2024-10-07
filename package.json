@@ -1,6 +1,6 @@
 {
   "name": "@warren-bank/browser-castv2",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Browser build for 'node-castv2': An implementation of the Chromecast CASTV2 protocol",
   "license": "GPL-2.0",
   "main": "dist/es2020/castv2.js",
